@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="6460" started-at="2020-10-06T05:30:42Z" finished-at="2020-10-06T05:30:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6460" started-at="2020-10-06T05:30:42Z" finished-at="2020-10-06T05:30:49Z">
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@7a5d012c]" name="setUp" is-config="true" duration-ms="1418" started-at="2020-10-06T05:30:47Z" finished-at="2020-10-06T05:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.orangehrm.tests.LoginPageTest@7a5d012c]" name="verifyLoginPageTitleTest" duration-ms="3" started-at="2020-10-06T05:30:49Z" description="verify page title method" finished-at="2020-10-06T05:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@7a5d012c]" name="tearDown" is-config="true" duration-ms="77" started-at="2020-10-06T05:30:49Z" finished-at="2020-10-06T05:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@3cda1055]" name="setUp" is-config="true" duration-ms="4861" started-at="2020-10-06T05:30:42Z" finished-at="2020-10-06T05:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.orangehrm.tests.HomePageTest@3cda1055]" name="verifyHomePageTitle" duration-ms="4" started-at="2020-10-06T05:30:47Z" description="verify home page title" finished-at="2020-10-06T05:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@3cda1055]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-10-06T05:30:47Z" finished-at="2020-10-06T05:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
