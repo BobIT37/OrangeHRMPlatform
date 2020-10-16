@@ -21,7 +21,6 @@ public class ExcelUtil {
 	
 	public static Object[][] getTestData(String sheetName) {
 		
-		
 		try {
 			FileInputStream ip = new FileInputStream(TESTDATA_SHEET_DATA);
 			book = WorkbookFactory.create(ip);
@@ -36,7 +35,6 @@ public class ExcelUtil {
 					data[i][k] = sheet.getRow(i+1).getCell(k).toString();
 				}
 			}
-			
 			return data;
 			
 		} catch (FileNotFoundException e) {
@@ -47,6 +45,5 @@ public class ExcelUtil {
 			e.printStackTrace();
 		}
 		return null;
-		
 	}
 }

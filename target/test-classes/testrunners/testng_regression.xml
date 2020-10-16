@@ -6,7 +6,8 @@
   
   
     <!-- <listener class-name="com.qa.organehrm.listeners.ExtentReportListener" /> -->
-    <listener class-name="com.qa.organehrm.listeners.pdfListener" />
+    <!-- <listener class-name="com.qa.organehrm.listeners.pdfListener" /> -->
+    <listener class-name="com.qa.organehrm.listeners.TestAllureListener" />
   
   
   </listeners>

@@ -36,11 +36,8 @@ public class AddEmployeeTest {
 		userCred = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 		homePage = loginPage.doLogin(userCred);
 		addEmployee = new AddEmployee(driver);
-		
 	
 	}
-	
-	
 	
 	@DataProvider
 	public Object[][] getContactsTestData(){

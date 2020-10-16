@@ -14,6 +14,15 @@ import com.qa.orangehrm.page.LoginPage;
 import com.qa.orangehrm.util.AppConstant;
 import com.qa.orangehrm.util.Credentials;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Features;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+
+@Epic("Epic - 102 : create home page features")
+@Feature("US - 502 : create test features in home page ")
 public class HomePageTest {
 	
 	WebDriver driver;
@@ -37,6 +46,8 @@ public class HomePageTest {
 	}
 	
 	@Test(priority=1, description="verify home page title")
+	@Description("verify home page title")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyHomePageTitle() {
 		String title = homePage.getHomePagetitle();
 		System.out.println("home page title is "+ title);
@@ -44,6 +55,8 @@ public class HomePageTest {
 	}
 	
 	@Test(priority=2, description="verify home page header")
+	@Description("verify home page header")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyHomePageHeader() {
 		String header = homePage.getHomePageHeader();
 		System.out.println("home page header is "+ header);
@@ -51,6 +64,8 @@ public class HomePageTest {
 	}
 	
 	@Test(priority=3, description="verify account name method")
+	@Description("verify account name method")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifyLoggedInUserTest() {
 		String accountName = homePage.getLoggedInUserAccountName();
 		System.out.println("logged in account is "+ accountName);
@@ -59,6 +74,8 @@ public class HomePageTest {
 	}
 	
 	@Test(priority=4, description="verify page URL")
+	@Description("verify page URL")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifyAuthentication() {
 		String url = homePage.getHomeUrl();
 		System.out.println("page url is "+ url);
